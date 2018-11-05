@@ -26,4 +26,3 @@ plot(test_brick$X1979.01.16)
 # gdalinfo the first file (first time you run this this can take some time):
 ncfile_temp_info <- gdalinfo(allfiles[16])
 meta = ncfile_temp_info[10:30]
-
